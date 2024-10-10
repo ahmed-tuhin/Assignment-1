@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+}
+body{
+    font-family: "Azeret Mono", monospace;
+}
+
+header{
+    max-width: 1440px;
+height: 790px;
+margin: 0 auto;
+margin-top: 25px;
+
+}
+/* navbar styles */
+.navbar{
+background: rgb(255, 255, 255);
+
+height: 130px;
+}
+
+.nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-container h3{
+    width: 128px;
+height: 33px;
+
+    margin-top: 50px;
+    margin-left: 150px;
+    color: rgb(13, 19, 33);
+
+font-size: 28px;
+font-weight: 800;
+
+}
+
+.nav-container button{
+
+    width: 244px;
+   height: 57px;
+   color: rgb(13, 19, 33);
+font-size: 20px;
+font-weight: 600;
+   background-color: white;
+
+  
+    box-sizing: border-box;
+
+    border-radius: 10px;
+    opacity: 0.8;
+    margin-right: 50px;  
+    margin-top: 38px;
+    gap: 10;
+    padding: 17px 24px 17px 24px;
+
+
+}
+
+/* banner section styles */
+.banner-section{
+    max-width: 1440px;
+height: 652px;
+
+background-image: url("../images/Hero-bg.png");
+background-image: cover;
+width: 100%;
+}
+
+.banner-container{
+    width: 998px;
+height: 581px;
+
+margin: 0 auto;
+margin-top: 26px;
+margin-bottom: 45px;
+}
+
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-content-img{
+
+    margin-bottom: 32px;
+}
+
+.banner-items{
+    height: 297px;
+    margin: 0 auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-items h1{
+    color: rgb(13, 19, 33);
+
+font-size: 48px;
+font-weight: 800;
+margin-bottom: 24px;
+}
+
+.banner-items p{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 32px;
+}
+
+.banner-btn{
+
+    width: 244px;
+height: 65px;
+    position: static;
+    border-radius: 8px;
+
+background: rgb(13, 19, 33);
+color: rgb(255, 255, 255);
+
+font-size: 20px;
+font-weight: 600;
+
+text-align: center;
+
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 10;
+padding: 21px 24px 21px 24px;
+margin-bottom: -30px;
+margin-top: 32px;
+}
+
+
+
