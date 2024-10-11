@@ -527,5 +527,32 @@ border-radius: 8px;
 background: rgb(255, 255, 255);
 border: none;
 }
+/* footer styles */
+.footer{
+  border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+ max-width:1440px;
+height: 100px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+margin: 0 auto;
+}
+.footer-container{
 
+  width: 1140px;
+height: 36px;
+margin: 36px 150px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-content{
+  color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+}
 
