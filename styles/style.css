@@ -161,12 +161,13 @@ opacity: 0.7;
   margin-bottom: 24px;
 }
 
-.banner-items p {
+.banner-description {
   color: rgb(13, 19, 33);
-
+  opacity: 0.7;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .banner-btn {
@@ -215,7 +216,7 @@ opacity: 0.7;
 .web-dev-content1 {
   /* border: 2px solid chartreuse; */
   width: 852px;
-  height: 113px;
+  height: 150px;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 48px;
@@ -229,12 +230,7 @@ opacity: 0.7;
   padding-top: 50px;
   margin-bottom: 12px;
 }
-/* .web-dev-content1 p {
-  color: rgb(13, 19, 33);
 
-  font-size: 16px;
-  font-weight: 400;
-} */
 
 .web-dev-container {
   margin-top: 48px;
@@ -347,6 +343,7 @@ align-items: center;
 gap: 24;
 /* padding: 0px; */
 margin-top: 55px;
+padding: 40px;
 
 }
 
